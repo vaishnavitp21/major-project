@@ -1,0 +1,251 @@
+
+================================================================================
+32-CLASS BASELINE: XGBoost
+                                         precision    recall  f1-score   support
+
+             Aggravated Assault Firearm       0.24      0.01      0.01      3185
+          Aggravated Assault No Firearm       0.37      0.00      0.00      5301
+                     All Other Offenses       0.34      0.41      0.37     19053
+                                  Arson       0.00      0.00      0.00       516
+               Burglary Non-Residential       0.46      0.13      0.21      1960
+                   Burglary Residential       0.25      0.00      0.00      4189
+            DRIVING UNDER THE INFLUENCE       0.44      0.09      0.16      1894
+                     Disorderly Conduct       0.43      0.09      0.15       604
+                           Embezzlement       0.33      0.00      0.01       271
+             Forgery and Counterfeiting       0.00      0.00      0.00       256
+                                  Fraud       0.31      0.05      0.08      9321
+                    Gambling Violations       0.67      0.31      0.42        26
+                    Homicide - Criminal       0.00      0.00      0.00       456
+            Homicide - Gross Negligence       0.00      0.00      0.00         0
+                 Homicide - Justifiable       0.00      0.00      0.00         1
+                  Liquor Law Violations       0.50      0.08      0.13        91
+                    Motor Vehicle Theft       0.29      0.03      0.06      5080
+         Narcotic / Drug Law Violations       0.40      0.28      0.33      6607
+   Offenses Against Family and Children       0.54      0.33      0.41       297
+                         Other Assaults       0.21      0.54      0.31     23917
+Other Sex Offenses (Not Commercialized)       0.73      0.05      0.09       906
+   Prostitution and Commercialized Vice       0.54      0.52      0.53       388
+                     Public Drunkenness       0.00      0.00      0.00        77
+                                   Rape       0.40      0.00      0.00       856
+              Receiving Stolen Property       0.54      0.04      0.08       348
+                        Robbery Firearm       0.39      0.01      0.02      2321
+                     Robbery No Firearm       0.22      0.00      0.00      2956
+                     Theft from Vehicle       0.29      0.24      0.27     13523
+                                 Thefts       0.34      0.56      0.43     25411
+                     Vagrancy/Loitering       0.00      0.00      0.00        10
+            Vandalism/Criminal Mischief       0.18      0.03      0.05     14396
+                      Weapon Violations       0.52      0.00      0.01      2990
+
+                               accuracy                           0.29    147207
+                              macro avg       0.31      0.12      0.13    147207
+                           weighted avg       0.30      0.29      0.23    147207
+
+
+================================================================================
+32-CLASS BASELINE: Random Forest
+                                         precision    recall  f1-score   support
+
+             Aggravated Assault Firearm       0.53      0.01      0.01      3185
+          Aggravated Assault No Firearm       0.50      0.00      0.01      5301
+                     All Other Offenses       0.37      0.44      0.40     19053
+                                  Arson       0.00      0.00      0.00       516
+               Burglary Non-Residential       0.70      0.04      0.07      1960
+                   Burglary Residential       0.50      0.00      0.00      4189
+            DRIVING UNDER THE INFLUENCE       0.82      0.07      0.13      1894
+                     Disorderly Conduct       0.94      0.03      0.05       604
+                           Embezzlement       0.00      0.00      0.00       271
+             Forgery and Counterfeiting       0.00      0.00      0.00       256
+                                  Fraud       0.47      0.04      0.07      9321
+                    Gambling Violations       0.00      0.00      0.00        26
+                    Homicide - Criminal       1.00      0.00      0.00       456
+            Homicide - Gross Negligence       0.00      0.00      0.00         0
+                 Homicide - Justifiable       0.00      0.00      0.00         1
+                  Liquor Law Violations       0.50      0.01      0.02        91
+                    Motor Vehicle Theft       0.31      0.00      0.01      5080
+         Narcotic / Drug Law Violations       0.40      0.27      0.32      6607
+   Offenses Against Family and Children       0.76      0.12      0.21       297
+                         Other Assaults       0.21      0.60      0.31     23917
+Other Sex Offenses (Not Commercialized)       0.93      0.04      0.08       906
+   Prostitution and Commercialized Vice       0.75      0.21      0.33       388
+                     Public Drunkenness       0.00      0.00      0.00        77
+                                   Rape       0.00      0.00      0.00       856
+              Receiving Stolen Property       0.00      0.00      0.00       348
+                        Robbery Firearm       0.25      0.00      0.00      2321
+                     Robbery No Firearm       0.00      0.00      0.00      2956
+                     Theft from Vehicle       0.35      0.20      0.26     13523
+                                 Thefts       0.36      0.60      0.45     25411
+                     Vagrancy/Loitering       0.00      0.00      0.00        10
+            Vandalism/Criminal Mischief       0.20      0.02      0.03     14396
+                      Weapon Violations       1.00      0.00      0.00      2990
+
+                               accuracy                           0.30    147207
+                              macro avg       0.37      0.08      0.09    147207
+                           weighted avg       0.36      0.30      0.23    147207
+
+
+================================================================================
+32-CLASS BASELINE: SVM
+                                         precision    recall  f1-score   support
+
+             Aggravated Assault Firearm       0.00      0.00      0.00      3185
+          Aggravated Assault No Firearm       0.00      0.00      0.00      5301
+                     All Other Offenses       0.25      0.34      0.29     19053
+                                  Arson       0.00      0.00      0.00       516
+               Burglary Non-Residential       0.00      0.00      0.00      1960
+                   Burglary Residential       0.00      0.00      0.00      4189
+            DRIVING UNDER THE INFLUENCE       0.00      0.00      0.00      1894
+                     Disorderly Conduct       0.00      0.00      0.00       604
+                           Embezzlement       0.00      0.00      0.00       271
+             Forgery and Counterfeiting       0.00      0.00      0.00       256
+                                  Fraud       0.22      0.00      0.01      9321
+                    Gambling Violations       0.00      0.00      0.00        26
+                    Homicide - Criminal       0.00      0.00      0.00       456
+            Homicide - Gross Negligence       0.00      0.00      0.00         0
+                 Homicide - Justifiable       0.00      0.00      0.00         1
+                  Liquor Law Violations       0.00      0.00      0.00        91
+                    Motor Vehicle Theft       0.43      0.00      0.00      5080
+         Narcotic / Drug Law Violations       0.32      0.11      0.16      6607
+   Offenses Against Family and Children       0.00      0.00      0.00       297
+                         Other Assaults       0.19      0.47      0.27     23917
+Other Sex Offenses (Not Commercialized)       0.00      0.00      0.00       906
+   Prostitution and Commercialized Vice       0.00      0.00      0.00       388
+                     Public Drunkenness       0.00      0.00      0.00        77
+                                   Rape       0.00      0.00      0.00       856
+              Receiving Stolen Property       0.00      0.00      0.00       348
+                        Robbery Firearm       0.00      0.00      0.00      2321
+                     Robbery No Firearm       0.00      0.00      0.00      2956
+                     Theft from Vehicle       0.19      0.03      0.05     13523
+                                 Thefts       0.25      0.53      0.34     25411
+                     Vagrancy/Loitering       0.00      0.00      0.00        10
+            Vandalism/Criminal Mischief       0.14      0.04      0.06     14396
+                      Weapon Violations       0.00      0.00      0.00      2990
+
+                               accuracy                           0.22    147207
+                              macro avg       0.06      0.05      0.04    147207
+                           weighted avg       0.18      0.22      0.16    147207
+
+
+================================================================================
+32-CLASS BASELINE: MLP
+                                         precision    recall  f1-score   support
+
+             Aggravated Assault Firearm       0.00      0.00      0.00      3185
+          Aggravated Assault No Firearm       0.00      0.00      0.00      5301
+                     All Other Offenses       0.27      0.44      0.34     19053
+                                  Arson       0.00      0.00      0.00       516
+               Burglary Non-Residential       0.08      0.00      0.00      1960
+                   Burglary Residential       0.00      0.00      0.00      4189
+            DRIVING UNDER THE INFLUENCE       0.46      0.04      0.07      1894
+                     Disorderly Conduct       0.00      0.00      0.00       604
+                           Embezzlement       0.00      0.00      0.00       271
+             Forgery and Counterfeiting       0.00      0.00      0.00       256
+                                  Fraud       0.20      0.03      0.05      9321
+                    Gambling Violations       0.00      0.00      0.00        26
+                    Homicide - Criminal       0.00      0.00      0.00       456
+            Homicide - Gross Negligence       0.00      0.00      0.00         0
+                 Homicide - Justifiable       0.00      0.00      0.00         1
+                  Liquor Law Violations       0.00      0.00      0.00        91
+                    Motor Vehicle Theft       0.16      0.01      0.02      5080
+         Narcotic / Drug Law Violations       0.30      0.22      0.25      6607
+   Offenses Against Family and Children       0.00      0.00      0.00       297
+                         Other Assaults       0.21      0.41      0.27     23917
+Other Sex Offenses (Not Commercialized)       0.00      0.00      0.00       906
+   Prostitution and Commercialized Vice       0.17      0.03      0.06       388
+                     Public Drunkenness       0.00      0.00      0.00        77
+                                   Rape       0.00      0.00      0.00       856
+              Receiving Stolen Property       0.00      0.00      0.00       348
+                        Robbery Firearm       0.00      0.00      0.00      2321
+                     Robbery No Firearm       0.00      0.00      0.00      2956
+                     Theft from Vehicle       0.22      0.29      0.25     13523
+                                 Thefts       0.30      0.51      0.38     25411
+                     Vagrancy/Loitering       0.00      0.00      0.00        10
+            Vandalism/Criminal Mischief       0.16      0.01      0.02     14396
+                      Weapon Violations       0.00      0.00      0.00      2990
+
+                               accuracy                           0.25    147207
+                              macro avg       0.08      0.06      0.05    147207
+                           weighted avg       0.19      0.25      0.19    147207
+
+
+================================================================================
+32-CLASS BASELINE: KNN
+                                         precision    recall  f1-score   support
+
+             Aggravated Assault Firearm       0.04      0.02      0.03      3185
+          Aggravated Assault No Firearm       0.04      0.03      0.04      5301
+                     All Other Offenses       0.22      0.26      0.24     19053
+                                  Arson       0.00      0.00      0.00       516
+               Burglary Non-Residential       0.06      0.03      0.04      1960
+                   Burglary Residential       0.04      0.02      0.03      4189
+            DRIVING UNDER THE INFLUENCE       0.10      0.06      0.07      1894
+                     Disorderly Conduct       0.03      0.02      0.02       604
+                           Embezzlement       0.02      0.01      0.01       271
+             Forgery and Counterfeiting       0.00      0.00      0.00       256
+                                  Fraud       0.09      0.08      0.09      9321
+                    Gambling Violations       0.00      0.00      0.00        26
+                    Homicide - Criminal       0.00      0.00      0.00       456
+            Homicide - Gross Negligence       0.00      0.00      0.00         0
+                 Homicide - Justifiable       0.00      0.00      0.00         1
+                  Liquor Law Violations       0.00      0.00      0.00        91
+                    Motor Vehicle Theft       0.07      0.05      0.06      5080
+         Narcotic / Drug Law Violations       0.16      0.17      0.16      6607
+   Offenses Against Family and Children       0.01      0.00      0.00       297
+                         Other Assaults       0.18      0.22      0.20     23917
+Other Sex Offenses (Not Commercialized)       0.02      0.01      0.01       906
+   Prostitution and Commercialized Vice       0.06      0.02      0.03       388
+                     Public Drunkenness       0.03      0.01      0.02        77
+                                   Rape       0.01      0.01      0.01       856
+              Receiving Stolen Property       0.01      0.01      0.01       348
+                        Robbery Firearm       0.03      0.02      0.02      2321
+                     Robbery No Firearm       0.03      0.02      0.02      2956
+                     Theft from Vehicle       0.14      0.13      0.14     13523
+                                 Thefts       0.25      0.31      0.28     25411
+                     Vagrancy/Loitering       0.00      0.00      0.00        10
+            Vandalism/Criminal Mischief       0.11      0.10      0.11     14396
+                      Weapon Violations       0.04      0.03      0.03      2990
+
+                               accuracy                           0.16    147207
+                              macro avg       0.06      0.05      0.05    147207
+                           weighted avg       0.15      0.16      0.15    147207
+
+
+================================================================================
+32-CLASS BASELINE: Logistic Regression
+                                         precision    recall  f1-score   support
+
+             Aggravated Assault Firearm       0.00      0.00      0.00      3185
+          Aggravated Assault No Firearm       0.00      0.00      0.00      5301
+                     All Other Offenses       0.23      0.29      0.26     19053
+                                  Arson       0.00      0.00      0.00       516
+               Burglary Non-Residential       0.00      0.00      0.00      1960
+                   Burglary Residential       0.00      0.00      0.00      4189
+            DRIVING UNDER THE INFLUENCE       0.00      0.00      0.00      1894
+                     Disorderly Conduct       0.00      0.00      0.00       604
+                           Embezzlement       0.00      0.00      0.00       271
+             Forgery and Counterfeiting       0.00      0.00      0.00       256
+                                  Fraud       0.17      0.01      0.01      9321
+                    Gambling Violations       0.00      0.00      0.00        26
+                    Homicide - Criminal       0.00      0.00      0.00       456
+            Homicide - Gross Negligence       0.00      0.00      0.00         0
+                 Homicide - Justifiable       0.00      0.00      0.00         1
+                  Liquor Law Violations       0.00      0.00      0.00        91
+                    Motor Vehicle Theft       0.25      0.00      0.01      5080
+         Narcotic / Drug Law Violations       0.28      0.20      0.23      6607
+   Offenses Against Family and Children       0.00      0.00      0.00       297
+                         Other Assaults       0.20      0.51      0.28     23917
+Other Sex Offenses (Not Commercialized)       0.00      0.00      0.00       906
+   Prostitution and Commercialized Vice       0.00      0.00      0.00       388
+                     Public Drunkenness       0.00      0.00      0.00        77
+                                   Rape       0.00      0.00      0.00       856
+              Receiving Stolen Property       0.00      0.00      0.00       348
+                        Robbery Firearm       0.00      0.00      0.00      2321
+                     Robbery No Firearm       0.00      0.00      0.00      2956
+                     Theft from Vehicle       0.18      0.07      0.10     13523
+                                 Thefts       0.26      0.52      0.35     25411
+                     Vagrancy/Loitering       0.00      0.00      0.00        10
+            Vandalism/Criminal Mischief       0.13      0.01      0.02     14396
+                      Weapon Violations       0.00      0.00      0.00      2990
+
+                               accuracy                           0.23    147207
+                              macro avg       0.05      0.05      0.04    147207
+                           weighted avg       0.17      0.23      0.16    147207

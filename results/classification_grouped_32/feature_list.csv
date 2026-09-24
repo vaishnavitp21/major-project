@@ -1,0 +1,11 @@
+feature,role,missing_values_before_train_imputation
+dc_dist,categorical,0
+psa,categorical,370
+year,numeric,0
+month,numeric,0
+day,numeric,0
+day_of_week,numeric,0
+hour,numeric,0
+weekend,numeric,0
+lat,numeric,2974
+lng,numeric,2974

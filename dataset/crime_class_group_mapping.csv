@@ -1,0 +1,33 @@
+original_class,crime_group,original_class_count
+All Other Offenses,All Other Offenses,95265
+Fraud,Financial & Fraud Offenses,46603
+Embezzlement,Financial & Fraud Offenses,1357
+Forgery and Counterfeiting,Financial & Fraud Offenses,1280
+Weapon Violations,Public Order & Weapon Offenses,14952
+Disorderly Conduct,Public Order & Weapon Offenses,3022
+Prostitution and Commercialized Vice,Public Order & Weapon Offenses,1942
+Offenses Against Family and Children,Public Order & Weapon Offenses,1486
+Gambling Violations,Public Order & Weapon Offenses,128
+Vagrancy/Loitering,Public Order & Weapon Offenses,49
+Other Sex Offenses (Not Commercialized),Sexual Offenses,4531
+Rape,Sexual Offenses,4279
+Narcotic / Drug Law Violations,Substance & Alcohol Offenses,33032
+DRIVING UNDER THE INFLUENCE,Substance & Alcohol Offenses,9470
+Liquor Law Violations,Substance & Alcohol Offenses,457
+Public Drunkenness,Substance & Alcohol Offenses,386
+Thefts,Theft & Property Offenses,127055
+Theft from Vehicle,Theft & Property Offenses,67615
+Motor Vehicle Theft,Theft & Property Offenses,25402
+Burglary Residential,Theft & Property Offenses,20944
+Burglary Non-Residential,Theft & Property Offenses,9798
+Receiving Stolen Property,Theft & Property Offenses,1741
+Vandalism/Criminal Mischief,Vandalism & Arson,71977
+Arson,Vandalism & Arson,2578
+Other Assaults,Violent Crimes,119583
+Aggravated Assault No Firearm,Violent Crimes,26504
+Aggravated Assault Firearm,Violent Crimes,15925
+Robbery No Firearm,Violent Crimes,14779
+Robbery Firearm,Violent Crimes,11606
+Homicide - Criminal,Violent Crimes,2281
+Homicide - Justifiable,Violent Crimes,5
+Homicide - Gross Negligence,Violent Crimes,1

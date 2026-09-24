@@ -1,0 +1,17 @@
+# Large binary datasets and model weights exceeding GitHub 100MB limit
+dataset/processed/
+dataset/Philadelphia_Crime_Incidents_2018_2022_Grouped.csv
+dataset/raw/
+models/*.joblib
+models/*.json
+
+# Preserve dataset distributions, mapping tables, and summaries
+!dataset/original_32_class_distribution.csv
+!dataset/crime_class_group_mapping.csv
+!dataset/grouped_class_distribution.csv
+!dataset/class_grouping_summary.csv
+
+# Python bytecode and temporary files
+__pycache__/
+*.pyc
+.DS_Store

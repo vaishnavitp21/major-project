@@ -1,0 +1,29 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "pandas": "2.3.3",
+  "numpy": "2.0.2",
+  "scikit_learn": "1.7.2",
+  "xgboost": "3.2.0",
+  "dataset_rows": 736033,
+  "original_classes_count": 32,
+  "grouped_classes_count": 8,
+  "features": [
+    "dc_dist",
+    "psa",
+    "year",
+    "month",
+    "day",
+    "day_of_week",
+    "hour",
+    "weekend",
+    "lat",
+    "lng"
+  ],
+  "train_size_unbalanced": 588826,
+  "train_size_balanced": 1616352,
+  "test_size": 147207,
+  "random_state": 42,
+  "resampling_method": "RandomOverSampler (Training set only)",
+  "nvidia_smi": "NVIDIA GeForce RTX 3050 6GB Laptop GPU, 6144 MiB"
+}

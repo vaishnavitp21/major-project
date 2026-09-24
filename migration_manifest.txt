@@ -1,0 +1,198 @@
+================================================================================
+CRIME-ANALYSIS PROJECT MIGRATION MANIFEST
+================================================================================
+Generated: 2026-09-24
+Source Repository (Shared GitHub): D:\major project\Major-project\
+Target Local Project (Personal):    D:\major project\
+
+GIT INFORMATION RECORD (Shared Repository: D:\major project\Major-project\):
+- Active Branch: vaishu-eda
+- Remote URL: https://github.com/varshini1802/Major-project.git
+- Commit b0fffbd: Initial project setup and crime data EDA (Author: varshini1802)
+- Commit 67c0700: Add Philadelphia crime EDA project (Author: Vaishnavi_21)
+- Untracked files: results/, data/processed/Philadelphia_Crime_Incidents_2018_2022.csv
+
+--------------------------------------------------------------------------------
+A. DEFINITELY MY PROJECT FILES (Philadelphia Crime Analysis Project)
+--------------------------------------------------------------------------------
+File Path: data/raw/Philadelphia_2018.csv
+Current Location: D:\major project\Major-project\data\raw\Philadelphia_2018.csv
+Destination Location: D:\major project\dataset\raw\Philadelphia_2018.csv
+Reason for Migration: User's Philadelphia crime raw dataset for 2018
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: data/raw/Philadelphia_2019.csv
+Current Location: D:\major project\Major-project\data\raw\Philadelphia_2019.csv
+Destination Location: D:\major project\dataset\raw\Philadelphia_2019.csv
+Reason for Migration: User's Philadelphia crime raw dataset for 2019
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: data/raw/Philadelphia_2020.csv
+Current Location: D:\major project\Major-project\data\raw\Philadelphia_2020.csv
+Destination Location: D:\major project\dataset\raw\Philadelphia_2020.csv
+Reason for Migration: User's Philadelphia crime raw dataset for 2020
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: data/raw/Philadelphia_2021.csv
+Current Location: D:\major project\Major-project\data\raw\Philadelphia_2021.csv
+Destination Location: D:\major project\dataset\raw\Philadelphia_2021.csv
+Reason for Migration: User's Philadelphia crime raw dataset for 2021
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: data/raw/Philadelphia_2022.csv
+Current Location: D:\major project\Major-project\data\raw\Philadelphia_2022.csv
+Destination Location: D:\major project\dataset\raw\Philadelphia_2022.csv
+Reason for Migration: User's Philadelphia crime raw dataset for 2022
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: data/processed/Philadelphia_Crime_Incidents_2018_2022.csv
+Current Location: D:\major project\Major-project\data\processed\Philadelphia_Crime_Incidents_2018_2022.csv
+Destination Location: D:\major project\dataset\processed\Philadelphia_Crime_Incidents_2018_2022.csv
+Reason for Migration: Processed Philadelphia crime dataset (2018-2022) created for user's model training
+Git Status: Untracked
+
+File Path: notebooks/Philadelphia_Crime_EDA.ipynb
+Current Location: D:\major project\Major-project\notebooks\Philadelphia_Crime_EDA.ipynb
+Destination Location: D:\major project\notebooks\Philadelphia_Crime_EDA.ipynb
+Reason for Migration: User's EDA notebook for Philadelphia crime data
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: src/data_cleaning.py
+Current Location: D:\major project\Major-project\src\data_cleaning.py
+Destination Location: D:\major project\src\data_cleaning.py
+Reason for Migration: Cleaning script created for Philadelphia dataset
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: src/data_loading.py
+Current Location: D:\major project\Major-project\src\data_loading.py
+Destination Location: D:\major project\src\data_loading.py
+Reason for Migration: Loading script created for Philadelphia dataset
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: src/analysis.py
+Current Location: D:\major project\Major-project\src\analysis.py
+Destination Location: D:\major project\src\analysis.py
+Reason for Migration: Script file created in commit 67c0700
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: src/visualization.py
+Current Location: D:\major project\Major-project\src\visualization.py
+Destination Location: D:\major project\src\visualization.py
+Reason for Migration: Visualization script created in commit 67c0700
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+File Path: src/__init__.py
+Current Location: D:\major project\Major-project\src\__init__.py
+Destination Location: D:\major project\src\__init__.py
+Reason for Migration: Python init module created in commit 67c0700
+Git Status: Tracked (Commit 67c0700 by Vaishnavi_21)
+
+--------------------------------------------------------------------------------
+B. DEFINITELY SHARED PROJECT FILES (Collaborator's Work - Preserved in Place)
+--------------------------------------------------------------------------------
+File Path: data/processed/all_csv_file_inventory.csv
+Current Location: D:\major project\Major-project\data\processed\all_csv_file_inventory.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: data/processed/district_wise_ipc_crimes_cleaned.csv
+Current Location: D:\major project\Major-project\data\processed\district_wise_ipc_crimes_cleaned.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: data/processed/state_year_crime_dataset.csv
+Current Location: D:\major project\Major-project\data\processed\state_year_crime_dataset.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: notebooks/01_Crime_Data_EDA.ipynb
+Current Location: D:\major project\Major-project\notebooks\01_Crime_Data_EDA.ipynb
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/figures/01_total_ipc_crimes_by_year.png
+Current Location: D:\major project\Major-project\outputs\figures\01_total_ipc_crimes_by_year.png
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/figures/02_top_states_total_ipc_crimes.png
+Current Location: D:\major project\Major-project\outputs\figures\02_top_states_total_ipc_crimes.png
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/figures/03_top_crime_categories.png
+Current Location: D:\major project\Major-project\outputs\figures\03_top_crime_categories.png
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/figures/04_crime_correlation_matrix.png
+Current Location: D:\major project\Major-project\outputs\figures\04_crime_correlation_matrix.png
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/tables/file_inventory.csv
+Current Location: D:\major project\Major-project\outputs\tables\file_inventory.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/tables/file_structure_report.csv
+Current Location: D:\major project\Major-project\outputs\tables\file_structure_report.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/tables/master_dataset_missing_values.csv
+Current Location: D:\major project\Major-project\outputs\tables\master_dataset_missing_values.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: outputs/tables/multi_file_integration_report.csv
+Current Location: D:\major project\Major-project\outputs\tables\multi_file_integration_report.csv
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Created by collaborator varshini1802 (Commit b0fffbd)
+Git Status: Tracked
+
+File Path: .gitignore
+Current Location: D:\major project\Major-project\.gitignore
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Shared repository configuration
+Git Status: Tracked
+
+File Path: requirements.txt
+Current Location: D:\major project\Major-project\requirements.txt
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Shared repository requirement file
+Git Status: Tracked
+
+--------------------------------------------------------------------------------
+C. UNCERTAIN FILES (Preserved in Place - DO NOT Delete or Modify)
+--------------------------------------------------------------------------------
+File Path: results/classification_feature_info.json
+Current Location: D:\major project\Major-project\results\classification_feature_info.json
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Untracked artifact with different schema/classes than 6-model baseline
+Git Status: Untracked
+
+File Path: results/classification_results.json
+Current Location: D:\major project\Major-project\results\classification_results.json
+Destination Location: Not migrated (Preserved in shared project)
+Reason for Migration: Untracked artifact with different schema/classes than 6-model baseline
+Git Status: Untracked
+
+================================================================================
+VERIFICATION SUMMARY:
+1. Personal working directory at D:\major project\ contains all user project files.
+2. Shared project directory at D:\major project\Major-project\ remains unmodified.
+3. No Git history has been rewritten, reset, or cleaned.
+4. No remote push performed.
+================================================================================
