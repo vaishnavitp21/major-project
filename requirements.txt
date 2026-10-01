@@ -1,9 +1,10 @@
 pandas
 numpy
 scikit-learn
-matplotlib
-seaborn
 xgboost
 catboost
+matplotlib
+seaborn
+jupyter
+imbalanced-learn
 joblib
-tensorflow>=2.16,<2.19

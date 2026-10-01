@@ -1,0 +1,15 @@
+Source Feature,Random Forest Importance,Random Forest Rank,Encoded Features (Random Forest),XGBoost Importance,XGBoost Rank,Encoded Features (XGBoost)
+lat,0.0995793636578387,1,['numeric__lat'],0.025492458,7,['numeric__lat']
+point_x,0.0995480726317476,2,['numeric__point_x'],0.02267077,9,['numeric__point_x']
+lng,0.0994975481946431,3,['numeric__lng'],0.030112384,6,['numeric__lng']
+point_y,0.099353783814665,4,['numeric__point_y'],0.03264174,5,['numeric__point_y']
+minute,0.0913778729748464,5,['numeric__minute'],0.022842335,8,['numeric__minute']
+hour,0.0896561716735415,6,['numeric__hour'],0.055342514,3,['numeric__hour']
+day_of_year,0.0873273115445903,7,['numeric__day_of_year'],0.010296985,12,['numeric__day_of_year']
+day_of_month,0.0816395568038829,8,['numeric__day_of_month'],0.0059687477,14,['numeric__day_of_month']
+week_of_year,0.0678351606631914,9,['numeric__week_of_year'],0.010452426,11,['numeric__week_of_year']
+day_of_week,0.0578257691572978,10,['numeric__day_of_week'],0.017159384,10,['numeric__day_of_week']
+year,0.0424585645384927,11,['numeric__year'],0.050012987,4,['numeric__year']
+month,0.04214664824689,12,['numeric__month'],0.009750565,13,['numeric__month']
+dc_dist,0.0235303890903106,13,"['categorical__dc_dist_24', 'categorical__dc_dist_16', 'categorical__dc_dist_19', 'categorical__dc_dist_25', 'categorical__dc_dist_9', 'categorical__dc_dist_22', 'categorical__dc_dist_39', 'categorical__dc_dist_26', 'categorical__dc_dist_6', 'categorical__dc_dist_35', 'categorical__dc_dist_18', 'categorical__dc_dist_14', 'categorical__dc_dist_15', 'categorical__dc_dist_2', 'categorical__dc_dist_12', 'categorical__dc_dist_3', 'categorical__dc_dist_17', 'categorical__dc_dist_8', 'categorical__dc_dist_5', 'categorical__dc_dist_77', 'categorical__dc_dist_7', 'categorical__dc_dist_1']",0.5906553825,1,"['categorical__dc_dist_24', 'categorical__dc_dist_25', 'categorical__dc_dist_16', 'categorical__dc_dist_9', 'categorical__dc_dist_17', 'categorical__dc_dist_19', 'categorical__dc_dist_6', 'categorical__dc_dist_26', 'categorical__dc_dist_3', 'categorical__dc_dist_35', 'categorical__dc_dist_77', 'categorical__dc_dist_22', 'categorical__dc_dist_12', 'categorical__dc_dist_5', 'categorical__dc_dist_18', 'categorical__dc_dist_2', 'categorical__dc_dist_14', 'categorical__dc_dist_8', 'categorical__dc_dist_7', 'categorical__dc_dist_15', 'categorical__dc_dist_39', 'categorical__dc_dist_1']"
+psa,0.01822378700806,14,"['categorical__psa_2', 'categorical__psa_1', 'categorical__psa_3', 'categorical__psa_4', 'categorical__psa_A']",0.116601394,2,"['categorical__psa_2', 'categorical__psa_A', 'categorical__psa_3', 'categorical__psa_1', 'categorical__psa_4']"

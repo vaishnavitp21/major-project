@@ -175,7 +175,7 @@ def basic_cleaning(df):
 # TEMPORAL FEATURE ENGINEERING
 # ============================================================
 
-def create_temporal_features(df):
+def create_legacy_temporal_features(df):
     """
     Create temporal features from dispatch_date_time.
     """
@@ -792,7 +792,7 @@ def run_feature_engineering():
     df = basic_cleaning(df)
 
     # 3. Temporal features
-    df = create_temporal_features(df)
+    df = create_legacy_temporal_features(df)
 
     # 4. Classification dataset
     classification_df = (
@@ -845,3 +845,36 @@ def run_feature_engineering():
 if __name__ == "__main__":
 
     run_feature_engineering()
+
+
+# Shared temporal helper used by the grouped base-model experiment.
+def create_temporal_features(
+    df,
+    date_column="dispatch_date",
+    datetime_column="dispatch_date_time",
+    time_column="dispatch_time",
+    hour_column="hour",
+):
+    """Return a copy with calendar/time fields matching base-model definitions."""
+    out = df.copy()
+    date_source = date_column if date_column in out else (datetime_column if datetime_column in out else None)
+    parsed = None
+    if date_source:
+        parsed = pd.to_datetime(out[date_source], errors="coerce", utc=(date_source == datetime_column))
+        out["year"] = parsed.dt.year
+        out["month"] = parsed.dt.month
+        out["day_of_week"] = parsed.dt.dayofweek
+        out["day_of_month"] = parsed.dt.day
+        out["day_of_year"] = parsed.dt.dayofyear
+        out["week_of_year"] = parsed.dt.isocalendar().week.astype("float64")
+    if hour_column in out:
+        out["hour"] = pd.to_numeric(out[hour_column], errors="coerce")
+    elif time_column in out:
+        out["hour"] = pd.to_datetime(out[time_column], format="%H:%M:%S", errors="coerce").dt.hour
+    elif parsed is not None:
+        out["hour"] = parsed.dt.hour
+    if time_column in out:
+        out["minute"] = pd.to_datetime(out[time_column], format="%H:%M:%S", errors="coerce").dt.minute
+    elif datetime_column in out:
+        out["minute"] = pd.to_datetime(out[datetime_column], errors="coerce", utc=True).dt.minute
+    return out

@@ -1,0 +1,40 @@
+Feature Name,Source Feature,Status,Random Forest Importance,Selection Reason
+numeric__year,year,Removed,0.0424585645384927,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+numeric__month,month,Removed,0.04214664824689,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+numeric__day_of_week,day_of_week,Retained,0.0578257691572978,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__day_of_month,day_of_month,Retained,0.0816395568038829,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__day_of_year,day_of_year,Retained,0.0873273115445903,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__week_of_year,week_of_year,Retained,0.0678351606631914,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__hour,hour,Retained,0.0896561716735415,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__minute,minute,Retained,0.0913778729748464,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__lat,lat,Retained,0.0995793636578387,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__lng,lng,Retained,0.0994975481946431,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__point_x,point_x,Retained,0.0995480726317476,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+numeric__point_y,point_y,Retained,0.099353783814665,Retained in Encoded-level subset under predeclared rule: Within predeclared 5% validation tolerance.
+categorical__dc_dist_1,dc_dist,Removed,0.0003634605915585,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_2,dc_dist,Removed,0.0008824326768982,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_3,dc_dist,Removed,0.0007185215207498,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_5,dc_dist,Removed,0.0005101234077137,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_6,dc_dist,Removed,0.0011484962436296,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_7,dc_dist,Removed,0.0004447518081982,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_8,dc_dist,Removed,0.0005547214875141,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_9,dc_dist,Removed,0.0014399348310609,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_12,dc_dist,Removed,0.0008458955296932,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_14,dc_dist,Removed,0.0009911073776541,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_15,dc_dist,Removed,0.0008879439472324,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_16,dc_dist,Removed,0.0016130458743402,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_17,dc_dist,Removed,0.0006137165236578,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_18,dc_dist,Removed,0.001076239590603,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_19,dc_dist,Removed,0.0015153823637108,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_22,dc_dist,Removed,0.001245153489442,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_24,dc_dist,Removed,0.0032931421735569,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_25,dc_dist,Removed,0.0014537519239872,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_26,dc_dist,Removed,0.0011556049151464,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_35,dc_dist,Removed,0.0011404554166282,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_39,dc_dist,Removed,0.0011868199139594,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__dc_dist_77,dc_dist,Removed,0.000449687483376,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__psa_1,psa,Removed,0.0050722820613507,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__psa_2,psa,Removed,0.0064509490011288,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__psa_3,psa,Removed,0.0048401948944074,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__psa_4,psa,Removed,0.0013936669327288,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
+categorical__psa_A,psa,Removed,0.0004666941184443,Excluded by ascending training-only Random Forest encoded-feature importance ranking.
